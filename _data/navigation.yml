@@ -21166,7 +21166,7 @@ openmanipulator_p:
         url: /platform/openmanipulator_p/getting_started/#package-contents
       - title: "Setup"
         url: /platform/openmanipulator_p/getting_started/#setup
-  - title: "[ROS] Setup"
+  - title: "Setup"
     url: /platform/openmanipulator_p/ros_setup/#ros-setup
     children:
       - title: "Install Ubuntu on PC"
@@ -21190,7 +21190,7 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_setup/#ros-kinetic-kame-package
           - title: "ROS Melodic Morenia Package"
             url: /platform/openmanipulator_p/ros_setup/#ros-melodic-morenia-package
-  - title: "[ROS] Controller Package"
+  - title: "Controller Package"
     url: /platform/openmanipulator_p/ros_controller_package/#ros-controller-package
     children:
       - title: "Launch Controller"
@@ -21207,21 +21207,21 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_controller_package/#topic
           - title: "Service"
             url: /platform/openmanipulator_p/ros_controller_package/#service
-  - title: "[ROS] Operation"
+  - title: "Operation"
     url: /platform/openmanipulator_p/ros_operation/#ros-operation
     children:
       - title: "GUI Program"
         url: /platform/openmanipulator_p/ros_operation/#gui-program
       - title: "Teleoperation"
         url: /platform/openmanipulator_p/ros_operation/#teleoperation
-  - title: "[ROS] Simulation"
+  - title: "Simulation"
     url: /platform/openmanipulator_p/ros_simulation/#ros-simulation
     children:
       - title: "Launch gazebo"
         url: /platform/openmanipulator_p/ros_simulation/#launch-gazebo
       - title: "Controller for gazebo"
         url: /platform/openmanipulator_p/ros_simulation/#controller-for-gazebo
-  - title: "[ROS] Tools"
+  - title: "Tools"
     url: /platform/openmanipulator_p/ros_tools
     children:
       - title: "RH-P12-RN Gripper"
@@ -21247,7 +21247,7 @@ openmanipulator_p:
                 url: /platform/openmanipulator_p/ros_tools/#launch-gazebo
               - title: "Controller for Gazebo"
                 url: /platform/openmanipulator_p/ros_tools/#controller-for-gazebo
-  - title: "[ROS] Perceptions"
+  - title: "Perceptions"
     url: /platform/openmanipulator_p/ros_perceptions/
     children:
       - title: "Camera"
@@ -21261,7 +21261,7 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_perceptions/#control-openmanipulator-p-with-camera
           - title: "Simulation"
             url: /platform/openmanipulator_p/ros_perceptions/#simulation
-  - title: "[ROS] Controls"
+  - title: "Controls"
     url: /platform/openmanipulator_p/ros_controls/
     children:
       - title: "MoveIt!"
@@ -21271,7 +21271,7 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_controls/#install-moveit-packages
           - title: "Launch MoveIt!"
             url: /platform/openmanipulator_p/ros_controls/#launch-moveit
-  - title: "[ROS] Applications"
+  - title: "Applications"
     url: /platform/openmanipulator_p/ros_applications/
     children:
       - title: "Master and Slave"
@@ -21281,54 +21281,6 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_applications/#install-package
           - title: "Execute Example"
             url: /platform/openmanipulator_p/ros_applications/#execute-example
-  - title: "[ROS 2] Setup"
-    url: /platform/openmanipulator_p/ros2_setup/#ros-setup
-    children:
-      - title: "Install Ubuntu on PC"
-        url: /platform/openmanipulator_p/ros2_setup/#install-ubuntu-on-pc
-      - title: "Install ROS 2 on PC"
-        url: /platform/openmanipulator_p/ros2_setup/#install-ros-2-on-pc
-      - title: "Install ROS 2 Packages"
-        url: /platform/openmanipulator_p/ros2_setup/#install-ros-2-packages
-      - title: "Communication Converter"
-        url: /platform/openmanipulator_p/ros2_setup/#communication-converter
-        children:
-          - title: "U2D2"
-            url: /platform/openmanipulator_p/ros2_setup/#u2d2
-  - title: "[ROS 2] Controller Package"
-    url: /platform/openmanipulator_p/ros2_controller_package/#ros-controller-package
-    children:
-      - title: "Launch Controller"
-        url: /platform/openmanipulator_p/ros2_controller_package/#launch-controller
-      - title: "Check Setting"
-        url: /platform/openmanipulator_p/ros2_controller_package/#check-setting
-        children:
-          - title: "RViz"
-            url: /platform/openmanipulator_p/ros2_controller_package/#rviz
-      - title: "Message List"
-        url: /platform/openmanipulator_p/ros2_controller_package/#message-list
-  - title: "[ROS 2] Operation"
-    url: /platform/openmanipulator_p/ros2_operation/#ros-operation
-    children:
-      - title: "GUI Program"
-        url: /platform/openmanipulator_p/ros2_operation/#gui-program
-      - title: "Teleoperation"
-        url: /platform/openmanipulator_p/ros2_operation/#teleoperation
-  - title: "[ROS 2] Simulation"
-    url: /platform/openmanipulator_p/ros2_simulation/#ros-simulation
-  - title: "[ROS 2] Tools"
-    url: /platform/openmanipulator_p/ros2_tools
-  - title: "[ROS 2] Perceptions"
-    children:
-      - title: "Camera"
-        url: /platform/openmanipulator_p/ros2_perceptions/#camera
-  - title: "[ROS 2] Controls"
-    url: /platform/openmanipulator_p/ros2_controls/
-    children:
-      - title: "Moveit!"
-        url: /platform/openmanipulator_p/ros2_controls/#moveit
-  - title: "[ROS 2] Applications"
-    url: /platform/openmanipulator_p/ros2_applications/
 
 #Manipulator-H
 manipulator_h:

@@ -1,20 +1,3 @@
----
-layout: archive
-lang: en
-ref: ros2_openmanipulator_p_ros_setup
-read_time: true
-share: true
-author_profile: false
-permalink: /docs/en/platform/openmanipulator_p/ros2_setup/
-sidebar:
-  title: "OpenMANIPULATOR-P"
-  nav: "openmanipulator_p"
-product_group: openmanipulator_p
-page_number: 12
----
-
-<div style="counter-reset: h1 11"></div>
-
 # [[ROS 2] Setup](#ros-setup)
 
 {% capture notice_01 %}

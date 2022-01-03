@@ -1,20 +1,3 @@
----
-layout: archive
-lang: en
-ref: ros2_openmanipulator_p_ros_tool
-read_time: true
-share: true
-author_profile: false
-permalink: /docs/en/platform/openmanipulator_p/ros2_tools/
-sidebar:
-  title: "OpenMANIPULATOR-P"
-  nav: "openmanipulator_p"
-product_group: openmanipulator_p
-page_number: 16
----
-
-<div style="counter-reset: h1 15"></div>
-
 # [[ROS 2] Tools](#ros-tools)
 
 ## [RH-P12-RN Gripper](#rh-p12-rn-gripper)

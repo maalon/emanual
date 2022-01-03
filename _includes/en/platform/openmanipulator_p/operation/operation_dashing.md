@@ -1,20 +1,3 @@
----
-layout: archive
-lang: en
-ref: ros2_openmanipulator_p_ros_operation
-read_time: true
-share: true
-author_profile: false
-permalink: /docs/en/platform/openmanipulator_p/ros2_operation/
-sidebar:
-  title: "OpenMANIPULATOR-P"
-  nav: "openmanipulator_p"
-product_group: openmanipulator_p
-page_number: 14
----
-
-<div style="counter-reset: h1 13"></div>
-
 # [[ROS 2] Operation](#ros-operation)
 
 ## [GUI Program](#gui-program)
