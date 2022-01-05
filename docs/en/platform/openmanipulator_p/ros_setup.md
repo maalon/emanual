@@ -8,9 +8,10 @@ author_profile: false
 permalink: /docs/en/platform/openmanipulator_p/ros_setup/
 tabs: "ROS"
 tab_title1: Kinetic
-tab_title2: Noetic
-tab_title3: Dashing
-tab_title4: Foxy
+tab_title2: Melodic
+tab_title3: Noetic
+tab_title4: Dashing
+tab_title5: Foxy
 sidebar:
   title: "OpenMANIPULATOR-P"
   nav: "openmanipulator_p"
@@ -27,13 +28,17 @@ page_number: 4
 </section>
 
 <section data-id="{{ page.tab_title2 }}" class="tab_contents">
-{% include en/platform/openmanipulator_p/setup/setup_noetic.md %}
+{% include en/platform/openmanipulator_p/setup/setup_melodic.md %}
 </section>
 
 <section data-id="{{ page.tab_title3 }}" class="tab_contents">
-{% include en/platform/openmanipulator_p/setup/setup_dashing.md %}
+{% include en/platform/openmanipulator_p/setup/setup_noetic.md %}
 </section>
 
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
+{% include en/platform/openmanipulator_p/setup/setup_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
 {% include en/platform/openmanipulator_p/setup/setup_foxy.md %}
 </section>

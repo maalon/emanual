@@ -21178,11 +21178,6 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_setup/#ros-kinetic-kame
           - title: "ROS Melodic Morenia"
             url: /platform/openmanipulator_p/ros_setup/#ros-melodic-morenia
-      - title: "Communication Converter"
-        url: /platform/openmanipulator_p/ros_setup/#communication-converter
-        children:
-          - title: "U2D2"
-            url: /platform/openmanipulator_p/ros_setup/#u2d2
       - title: "Install ROS Packages"
         url: /platform/openmanipulator_p/ros_setup/#install-ros-package
         children:
@@ -21190,7 +21185,12 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_setup/#ros-kinetic-kame-package
           - title: "ROS Melodic Morenia Package"
             url: /platform/openmanipulator_p/ros_setup/#ros-melodic-morenia-package
-  - title: "Controller Package"
+      - title: "Communication Converter"
+        url: /platform/openmanipulator_p/ros_setup/#communication-converter
+        children:
+          - title: "U2D2"
+            url: /platform/openmanipulator_p/ros_setup/#u2d2
+  - title: "Controller"
     url: /platform/openmanipulator_p/ros_controller_package/#ros-controller-package
     children:
       - title: "Launch Controller"
@@ -21207,6 +21207,11 @@ openmanipulator_p:
             url: /platform/openmanipulator_p/ros_controller_package/#topic
           - title: "Service"
             url: /platform/openmanipulator_p/ros_controller_package/#service
+      - title: "Experimental"
+        url: /platform/openmanipulator_p/ros_controller_package/#experimental
+        children:
+          - title: "MoveIt!"
+            url: /platform/openmanipulator_p/ros_controls/#moveit
   - title: "Operation"
     url: /platform/openmanipulator_p/ros_operation/#ros-operation
     children:
@@ -21221,7 +21226,31 @@ openmanipulator_p:
         url: /platform/openmanipulator_p/ros_simulation/#launch-gazebo
       - title: "Controller for gazebo"
         url: /platform/openmanipulator_p/ros_simulation/#controller-for-gazebo
-  - title: "Tools"
+  - title: "Perceptions"
+    url: /platform/openmanipulator_p/ros_perceptions/
+    children:
+      - title: "Camera"
+        url: /platform/openmanipulator_p/ros_perceptions/#camera
+        children:
+          - title: "Install Camera Package"
+            url: /platform/openmanipulator_p/ros_perceptions/#install-camera-package
+          - title: "Install AR Marker Package"
+            url: /platform/openmanipulator_p/ros_perceptions/#install-ar-marker-package
+          - title: "Control OpenMANIPULATOR-P with Camera"
+            url: /platform/openmanipulator_p/ros_perceptions/#control-openmanipulator-p-with-camera
+          - title: "Simulation"
+            url: /platform/openmanipulator_p/ros_perceptions/#simulation
+  - title: "Applications"
+    url: /platform/openmanipulator_p/ros_applications/
+    children:
+      - title: "Master and Slave"
+        url: /platform/openmanipulator_p/ros_applications/#master-and-slave
+        children:
+          - title: "Install Package"
+            url: /platform/openmanipulator_p/ros_applications/#install-package
+          - title: "Execute Example"
+            url: /platform/openmanipulator_p/ros_applications/#execute-example
+  - title: "Tool Modification"
     url: /platform/openmanipulator_p/ros_tools
     children:
       - title: "RH-P12-RN Gripper"
@@ -21247,40 +21276,6 @@ openmanipulator_p:
                 url: /platform/openmanipulator_p/ros_tools/#launch-gazebo
               - title: "Controller for Gazebo"
                 url: /platform/openmanipulator_p/ros_tools/#controller-for-gazebo
-  - title: "Perceptions"
-    url: /platform/openmanipulator_p/ros_perceptions/
-    children:
-      - title: "Camera"
-        url: /platform/openmanipulator_p/ros_perceptions/#camera
-        children:
-          - title: "Install Camera Package"
-            url: /platform/openmanipulator_p/ros_perceptions/#install-camera-package
-          - title: "Install AR Marker Package"
-            url: /platform/openmanipulator_p/ros_perceptions/#install-ar-marker-package
-          - title: "Control OpenMANIPULATOR-P with Camera"
-            url: /platform/openmanipulator_p/ros_perceptions/#control-openmanipulator-p-with-camera
-          - title: "Simulation"
-            url: /platform/openmanipulator_p/ros_perceptions/#simulation
-  - title: "Controls"
-    url: /platform/openmanipulator_p/ros_controls/
-    children:
-      - title: "MoveIt!"
-        url: /platform/openmanipulator_p/ros_controls/#moveit
-        children:
-          - title: "Install MoveIt Packages"
-            url: /platform/openmanipulator_p/ros_controls/#install-moveit-packages
-          - title: "Launch MoveIt!"
-            url: /platform/openmanipulator_p/ros_controls/#launch-moveit
-  - title: "Applications"
-    url: /platform/openmanipulator_p/ros_applications/
-    children:
-      - title: "Master and Slave"
-        url: /platform/openmanipulator_p/ros_applications/#master-and-slave
-        children:
-          - title: "Install Package"
-            url: /platform/openmanipulator_p/ros_applications/#install-package
-          - title: "Execute Example"
-            url: /platform/openmanipulator_p/ros_applications/#execute-example
 
 #Manipulator-H
 manipulator_h:
