@@ -274,7 +274,7 @@ If the above installation fails, please refer to [the official ROS Melodic insta
   ```bash
 $ sudo apt install ros-melodic-rosserial-python ros-melodic-tf
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/src
-$ sudo apt install ros-melodic-hls-lfcd-lds-driver
+  in case you are using the LDS-01 : sudo apt install ros-melodic-hls-lfcd-lds-driver
 $ sudo apt install ros-melodic-turtlebot3-msgs
 $ sudo apt install ros-melodic-dynamixel-sdk
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
