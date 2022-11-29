@@ -72,6 +72,7 @@ $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+$ source ~/.bashrc
 $ cd ~/catkin_ws && catkin_make
 $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
